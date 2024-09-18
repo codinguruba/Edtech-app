@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <title>EdTech App - Student Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Welcome to the Education App Student Dashboard</h1>
+            <p>Start learning coding and track your progress here!</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="dashboard-item">
+                <h2>Coding Lessons</h2>
+                <p>Join your coding online class here.</p>
+                <button onclick="window.location.href='https://meet.google.com/dvn-vcmw-nvq'">Join Now</button>
+
+            </div>
+
+            <div class="dashboard-item">
+                <h2>Progress Tracker</h2>
+                <p>Check your learning progress and achievements.</p>
+                <button >View Progress</button>
+            </div>
+
+            <div class="dashboard-item">
+                <h2>Assignments</h2>
+                <p>Submit and review coding assignments.</p>
+                <button >Go to Assignments</button>
+            </div>
+
+            <div class="dashboard-item">
+                <h2>Profile Settings</h2>
+                <p>Update your profile information and settings.</p>
+                <button >Edit Profile</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
