@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f4f8; /* Softer, modern background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+}
+
+/* Styling the login container */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Softer shadow for a more modern look */
+    width: 100%;
+    max-width: 400px; /* Make it responsive */
+    text-align: center;
+    
+}
+
+
+
+/* Styling the form elements */
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+
+/* Styling the button */
+button {
+    width: 100%;
+    background-color: #6ca0dc; /* Better contrast */
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a86e8; /* Darker hover effect */
+}
